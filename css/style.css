@@ -1,0 +1,52 @@
+body {
+  margin: 0%;
+}
+ul:nth-child(1) {
+  background-color: red;
+}
+ul:nth-child(2) {
+  background-color: royalblue;
+}
+ul:nth-child(3) {
+  background-color: yellow;
+}
+ul:nth-child(4) {
+  background-color: pink;
+}
+ul:nth-child(5) {
+  background-color: violet;
+}
+.list {
+  list-style-type: none;
+}
+ul:nth-child(1):active {
+  color: green;
+}
+ul:nth-child(2):hover {
+  color: red;
+}
+ul:nth-child(3):active {
+  color: hotpink;
+}
+ul:nth-child(4):hover {
+  color: blue;
+}
+ul:nth-child(5):active{
+  color: aqua;
+}
+.monday:nth-child(2n) {
+  font-size: 26px;
+}
+.Tuesday:nth-child(2n) {
+  font-style: italic
+}
+.Wednesday:nth-child(n+3) {
+  color: blue;
+}
+.Thursday:nth-child(1n) {
+  letter-spacing: 3px;
+}
+.Friday:first-child {
+font-size: 35px;
+}
+ 

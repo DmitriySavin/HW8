@@ -20,33 +20,49 @@ ul:nth-child(5) {
   list-style-type: none;
 }
 ul:nth-child(1):active {
-  color: green;
-}
-ul:nth-child(2):hover {
-  color: red;
-}
-ul:nth-child(3):active {
-  color: hotpink;
-}
-ul:nth-child(4):hover {
-  color: blue;
-}
-ul:nth-child(5):active{
-  color: aqua;
+  color: yellow;
 }
 .monday:nth-child(2n) {
   font-size: 26px;
 }
-.Tuesday:nth-child(2n) {
-  font-style: italic
+ul:nth-child(2):hover {
+  color: red;
 }
-.Wednesday:nth-child(n+3) {
+.tuesday:nth-child(-n+2) {
+  font-style: italic;
+  font-size: 25px;
+}
+.wednesday:nth-child(n+3) {
   color: blue;
 }
-.Thursday:nth-child(1n) {
-  letter-spacing: 3px;
+ul:nth-child(3):not(3) {
+  color: hotpink;
 }
-.Friday:first-child {
-font-size: 35px;
+.thursday:first-child {
+  letter-spacing: 5px;
 }
- 
+a[href*="1"] {
+  color: indianred;
+}
+a[href*="1"]:visited {
+  color: white;
+}
+/* Я не понимаю почему оно не работает , онопросто заменяет цвет текста , и это все что оно делает , не знаю как исправить */
+ul:nth-child(4) {
+  color: aqua;
+}
+.friday:last-child {
+  font-size: 35px;
+}
+/* ul:nth-child(5):checked {
+  color: greenyellow;
+} */
+/* ничего не делает вообще */
+a[href*="#"] {
+  color: black;
+}
+a[href*="#"]:focus {
+  color: green;
+}
+
+

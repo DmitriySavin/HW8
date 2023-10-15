@@ -1,6 +1,25 @@
 body {
   margin: 0%;
 }
+h3:nth-child(1) {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+div>div p {
+  color: red;
+}
+
+p:nth-child(7) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
 ul:nth-child(1) {
   background-color: red;
 }
@@ -25,26 +44,27 @@ ul:nth-child(1):active {
 .monday:nth-child(2n) {
   font-size: 26px;
 }
-ul:nth-child(2):hover {
+/* ul:nth-child(2):hover {
   color: red;
-}
+} */
 .tuesday:nth-child(-n+2) {
   font-style: italic;
   font-size: 25px;
 }
+ul
 .wednesday:nth-child(n+3) {
   color: blue;
 }
-ul:nth-child(3):not(3) {
+ul:nth-child(3):not(.tuesday) {
   color: hotpink;
 }
 .thursday:first-child {
   letter-spacing: 5px;
 }
-a[href*="1"] {
+.thursday-link {
   color: indianred;
 }
-a[href*="1"]:visited {
+.thursday-link:visited {
   color: white;
 }
 /* Я не понимаю почему оно не работает , онопросто заменяет цвет текста , и это все что оно делает , не знаю как исправить */
@@ -54,10 +74,7 @@ ul:nth-child(4) {
 .friday:last-child {
   font-size: 35px;
 }
-/* ul:nth-child(5):checked {
-  color: greenyellow;
-} */
-/* ничего не делает вообще */
+
 a[href*="#"] {
   color: black;
 }

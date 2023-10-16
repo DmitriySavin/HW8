@@ -38,15 +38,15 @@ ul:nth-child(5) {
 .list {
   list-style-type: none;
 }
-ul:nth-child(1):active {
+.list:nth-child(1) .monday-link:active {
   color: yellow;
 }
 .monday:nth-child(2n) {
   font-size: 26px;
 }
-/* ul:nth-child(2):hover {
-  color: red;
-} */
+.list:nth-child(2) .tuesday-link:hover {
+  color: yellow;
+}
 .tuesday:nth-child(-n+2) {
   font-style: italic;
   font-size: 25px;
